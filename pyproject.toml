@@ -5,6 +5,7 @@ description = "Project Management App"
 authors = [
     {name = "riutomo42@gmail.com"}
 ]
+package-mode = false
 license = {text = "Open"}
 readme = "README.md"
 requires-python = ">=3.12"
