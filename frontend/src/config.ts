@@ -1,2 +1,2 @@
-export const API_BASE = "http://0.0.0.0:10000";
+export const API_BASE = "https://project-tracker-backend-jz5x.onrender.com";
 
