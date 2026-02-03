@@ -1,0 +1,22 @@
+[project]
+name = "proman"
+version = "0.1.0"
+description = "Project Management App"
+authors = [
+    {name = "riutomo42@gmail.com"}
+]
+license = {text = "Open"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "pydantic>=2.9.0",
+    "python-dotenv>=1.0.1",
+    "aiofiles>=24.1.0",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
